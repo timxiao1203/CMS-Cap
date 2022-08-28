@@ -22,13 +22,5 @@ Hence, computing the CMS cap and floor prices is primary. In Felix’s approach,
 
 In the above, the correction factor μT is given in [2], ˜g is given in [4], SwptP(S0, ·) and SwptR(S0, ·), the RTP- and RTR-swaption prices, are given by SABRN-model. It should be noted that the above approach is approximate arbitrage-free. In the above integrations, integral intervals may be further divided into two pieces which are corresponding to out-of-the-money IR swaptions.
 
-The linear swap rate model is applied together with SABRN-model for pricing IR swaptions and CMS caps/floors. This approach is in theory arbitrage-free. The CMS cap and floor values are given by the following:
+The linear swap rate model is applied together with SABRN-model for pricing IR swaptions and CMS caps/floors. This approach is in theory arbitrage-free. The callalbe CMS cap and floor values are given by https://finpricing.com/lib/EqCallable.html
 
-
-Reference:
-
-https://finpricing.com/lib/EqConvertible.html
-
-https://zenodo.org/record/6613989#.Ypuv2qgpDq4
-
-https://zenodo.org/record/6613989/files/cmsCap.pdf
